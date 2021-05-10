@@ -1,0 +1,221 @@
+body{
+  font-family: 'Commissioner', sans-serif;
+  background-image: url("images/image-hero-desktop.jpg");
+
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100%;
+  line-height: 2;
+}
+a{
+  font-family: 'Commissioner', sans-serif;
+}
+p{
+  color:hsl(0, 0%, 48%);
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: 700;
+  display: inline-block;
+}
+h6{
+  color: hsl(176, 50%, 47%);
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+/* nav */
+.nav-container{
+  padding: 2% 15%;
+}
+
+/* spacing */
+.structure{
+  background-color: #fff;
+  width: 100%;
+
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#main-body{
+  padding: 10% 22% 0;
+}
+.heading-body{
+  padding: 5% 4%;
+  position: relative;
+}
+
+.headings{
+  text-align: center;
+}
+
+.mastercraft{
+  position: absolute;
+  left: 50%;
+  top: -10%;
+}
+
+/* hover */
+
+.btn:hover{
+  background-color: hsl(176, 72%, 28%);
+}
+.btn-check:focus + .btn-primary, .btn-primary:focus{
+  background-color: hsl(176, 72%, 28%);
+}
+
+.card-title:hover{
+  color:hsl(176, 50%, 47%);
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+.pledge-box:focus{
+  box-shadow: 0 0 0 0.1rem hsl(176, 50%, 47%);
+}
+
+.card-modal:focus-within{
+  box-shadow: 0 0 0 0.25rem hsl(176, 50%, 47%);
+}
+
+/* bookmark */
+
+.row-btn{
+
+  padding: 5% 2% 0;
+}
+
+.btn{
+  font-size: 0.9rem;
+    border-radius: 20px;
+}
+.back-this{
+  width: 180px;
+  height: 50px;
+  background-color: hsl(176, 50%, 47%);
+
+}
+
+.input-group{
+
+  margin-left: 60%;
+
+}
+
+.bookmark-btn{
+  text-align: right;
+    background-color: rgba(0, 0, 0, 0.04);
+    right:2%;
+}
+
+.active-icon{
+  filter:  invert(61%) sepia(22%) saturate(1075%) hue-rotate(127deg) brightness(97%) contrast(88%);
+}
+
+/* Donation */
+
+#donation{
+  padding: 5% 3% 5%;
+  margin: 5% 0;
+}
+.bar{
+  margin-bottom: 5%;
+  border-right: 1px solid;
+  border-color: hsl(0, 0%, 48%);
+  height: 60%;
+  position: relative;
+  bottom: 80%;
+  right: 20%
+
+}
+.progress{
+  margin: 6% 0 0;
+}
+.progress-bar{
+  background-color: hsl(176, 50%, 47%);
+
+}
+
+/* About */
+
+#about{
+  padding: 3% 3% 5%;
+  margin: 5% 0;
+}
+
+/* card */
+
+.card{
+  padding: 2%;
+  margin-top: 4%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.card-right .btn{
+  color: #fff;
+  width: 40%;
+  padding: 10px;
+  background-color: hsl(176, 50%, 47%);
+  font-weight: 500;
+}
+
+.disabled{
+  background-color: rgba(0, 0, 0, 0.04);
+  filter: opacity(50%) saturate(80%);
+
+}
+.card-right{
+  text-align: right;
+}
+
+
+
+/* Modal */
+.modal-content{
+  padding: 2% 4% 4%;
+}
+
+.pledge-box{
+  width:20%;
+}
+
+#bamboo-collapse p{
+  display: inline-block;
+}
+
+.pledge-box{
+  border-radius: 20px;
+  text-align: center;
+  width:30%;
+}
+
+.pledge-col{
+  text-align: right;
+}
+
+.pledge-col .btn{
+  margin-left: 20px;
+  width:  50%;
+}
+
+.col-lg-9 .card-title{
+  margin-right: 20px;
+}
+
+.col-lg-11 input{
+  display: none;
+}
+
+.left-2{
+  display: none;
+}
+/* Modal 2 */
+.check-img{
+  width: 100%;
+  padding: 8% 0;
+}

@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Crowdfunding product page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+<!-- fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles2.css">
+</head>
+
+<body>
+
+
+
+
+
+
+  <!-- Navbar -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid nav-container">
+      <a class="navbar-brand" href="#"><img src="images/logo.svg" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav  mb-2 mb-lg-0 ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"> About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Discover</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Get Started</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+  <section id="main-body">
+
+
+    <div class="heading-body container-fluid structure">
+      <img class="mastercraft" src="images/logo-mastercraft.svg" alt="">
+      <div class="headings">
+
+        <h1>Mastercraft Bamboo Monitor Riser</h1>
+        <p> A beautiful & handcrafted monitor stand to reduce neck and eye strain.</p>
+      </div>
+      <div class="row row-btn">
+        <div class="col-lg-6 col-9">
+          <button type="button" class="btn btn-primary btn-lg back-this" data-bs-toggle="modal" data-bs-target="#modal1">Back this project</button>
+
+      </div>
+        <div class="col-lg-6 col-3 bookmark">
+          <div class="input-group">
+            <input type="image" class="bookmark-icon" name="" src="images/icon-bookmark.svg" value="">
+          <button type="button" class="btn bookmark-btn " disabled>Bookmark</button>
+            </div>
+
+
+        </div>
+        </div>
+      </div>
+    <section id="donation" class="structure">
+      <div class="row donation">
+        <div class="col-lg-4">
+          <h1 id="donatedMoney">$89,914</h1>
+          <p>of $100,000 backed</p>
+          <div class="bar"></div>
+        </div>
+    
+        <div class="col-lg-4">
+          <h1 id="backersCount">5,007</h1>
+          <p>total backers</p>
+          <div class="bar"></div>
+        </div>
+
+        <div class="col-lg-4">
+          <h1>56</h1>
+          <p>days left</p>
+
+        </div>
+      </div>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped .progress-bar-animated" role="progressbar" style="width: 89.914%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+    </section>
+    <section id="about" class="about structure">
+      <h3>About this project</h3>
+      <p>The Mastercraft Bamboo Monitor Riser is a sturdy and stylish platform that elevates your screen
+        to a more comfortable viewing height. Placing your monitor at eye level has the potential to improve
+        your posture and make you more comfortable while at work, helping you stay focused on the task at hand.</p>
+      <p>Featuring artisan craftsmanship, the simplicity of design creates extra desk space below your computer
+        to allow notepads, pens, and USB sticks to be stored under the stand.</p>
+
+  <!-- Card-1-->
+      <div class="card">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-lg-6">
+              <h4 class="card-title">Bamboo Stand</h4>
+            </div>
+            <div class="col-lg-6 card-right">
+              <h6>Pledge $25 or more</h6>
+            </div>
+          </div>
+
+          <p class="card-text">You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and
+          you’ll be added to a special Backer member list.</p>
+          <div class="row">
+            <div class="col-lg-6">
+            <h2 id="bambooQuantity">101</h2><span style="color:hsl(0, 0%, 48%); font-size:1.4rem;"><sup>   left.</sup></span>
+            </div>
+            <div class="col-lg-6 card-right">
+              <a href="#" class="btn reward">Select Reward</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+<!-- Card-2 -->
+<div class="card">
+  <div class="card-body">
+    <div class="row">
+      <div class="col-lg-6">
+        <h4 class="card-title">Black Edition Stand</h4>
+      </div>
+      <div class="col-lg-6 card-right">
+        <h6>Pledge $75 or more</h6>
+      </div>
+    </div>
+
+    <p class="card-text">You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backer
+    member list. Shipping is included.</p>
+    <div class="row">
+      <div class="col-lg-6">
+      <h2 id="blackQuantity">64</h2><span style="color:hsl(0, 0%, 48%); font-size:1.4rem;"><sup>   left.</sup></span>
+      </div>
+      <div class="col-lg-6 card-right">
+        <a href="#" class="btn">Select Reward</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- Card-3 -->
+<div class="card disabled">
+  <div class="card-body  ">
+    <div class="row">
+      <div class="col-lg-6">
+        <h4 class="card-title">Mahogany Special Edition</h4>
+      </div>
+      <div class="col-lg-6 card-right">
+        <h6>Pledge $200 or more</h6>
+      </div>
+    </div>
+
+    <p class="card-text">You get two Special Edition Mahogany stands, a Backer T-Shirt, and a personal thank you. You’ll be added
+    to our Backer member list. Shipping is included.</p>
+    <div class="row">
+      <div class="col-lg-6">
+      <h2>0</h2><span style="color:hsl(0, 0%, 48%); font-size:1.4rem;"><sup>   left.</sup></span>
+      </div>
+      <div class="col-lg-6 card-right">
+        <a href="#" class="btn btn-secondary disabled" >Out of Stock</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+    </section>
+
+  </section>
+
+
+
+
+<!-- Modal-1 -->
+
+  <div class="modal fade" id="modal1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <button type="button" class="btn-close ms-auto" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="modal-body">
+          <h3>Back this project</h3>
+          <p>Want to support us in bringing Mastercraft Bamboo Monitor Riser out in the world?</p>
+
+          <!-- Card-1 -->
+          <div class="card card-modal">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-lg-1">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" data-bs-target="#no-reward-collapse" data-bs-toggle="collapse">
+                </div>
+                <div class="col-lg-11">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" data-bs-target="#no-reward-collapse" data-bs-toggle="collapse">
+                      <h4 class="card-title">Pledge with no reward </h4>
+                  <p class="card-text">  Choose to support us without a reward if you simply believe in our project. As a backer,
+                    you will be signed up to receive product updates via email.</p>
+                    <div class="collapse" id="no-reward-collapse">
+                      <div class="card card-body">
+                          <div class=" pledge-col">
+                             <button type="button" id="submitBtn0" class="btn btn-primary btn-lg back-this"  data-bs-target="#modal2" data-bs-toggle="modal" data-bs-dismiss="modal">Continue</button>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card-2 -->
+          <div class="card card-modal">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-lg-1">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" data-bs-target="#bamboo-collapse" data-bs-toggle="collapse">
+                </div>
+                <div class="col-lg-11">
+                  <div class="row">
+                    <div class="col-lg-9">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" data-bs-target="#bamboo-collapse" data-bs-toggle="collapse">
+                      <h4 class="card-title">Bamboo Stand </h4>
+                      <h6>  Pledge $25 or more</h6>
+                    </div>
+                    <div class="col-lg-3 card-right">
+                      <div class="left-1">
+                        <h5 id="bambooQuantity">101</h5><span style="color:hsl(0, 0%, 48%);"> left.</span>
+                      </div>
+
+                    </div>
+                  </div>
+                  <p class="card-text">You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and
+                  you’ll be added to a special Backer member list.</p>
+                  <div class="left-2">
+                    <h5 id="bambooQuantity">101</h5><span style="color:hsl(0, 0%, 48%);"><sup> left</sup></span>
+                  </div>
+                </div>
+              </div>
+              <div class="collapse" id="bamboo-collapse">
+                <div class="card card-body">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <p>Enter your pledge</p>
+                    </div>
+                    <div class="col-lg-6 pledge-col">
+                        <label for="pledge-box"><strong>$</strong></label><input class="pledge-box" id="pledge-box2" type="number" name="pledgeValue" value="25">
+                       <button type="button" id="submitBtn2" class="btn btn-primary btn-lg back-this"  data-bs-target="#modal2" data-bs-toggle="modal" data-bs-dismiss="modal">Continue</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card-3 -->
+          <div class="card card-modal">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-lg-1">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" data-bs-target="#black-collapse" data-bs-toggle="collapse">
+                </div>
+                <div class="col-lg-11">
+                  <div class="row">
+                    <div class="col-lg-9">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" data-bs-target="#black-collapse" data-bs-toggle="collapse">
+                      <h4 class="card-title">Black Edition Stand </h4>
+                      <h6>Pledge $75 or more</h6>
+                    </div>
+                    <div class="col-lg-3 card-right">
+                      <div class="left-1">
+                        <h5 id="blackQuantity">64</h5><span style="color:hsl(0, 0%, 48%);"> left.</span>
+                      </div>
+
+                    </div>
+                  </div>
+                  <p class="card-text">  You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backer
+                    member list. Shipping is included..</p>
+                    <div class="left-2">
+                      <h5 id="blackQuantity">64</h5><span style="color:hsl(0, 0%, 48%);"><sup> left</sup></span>
+                    </div>
+                    <div class="collapse" id="black-collapse">
+                      <div class="card card-body">
+                        <div class="row">
+                          <div class="col-lg-6">
+                            <p>Enter your pledge</p>
+                          </div>
+                          <div class="col-lg-6 pledge-col">
+                              <label for="pledge-box"><strong>$</strong></label><input class="pledge-box" id="pledge-box3" type="number" name="pledgeValue" value="75">
+                             <button type="button" id="submitBtn3" class="btn btn-lg back-this btn-primary"  data-bs-target="#modal2" data-bs-toggle="modal" data-bs-dismiss="modal">Continue</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card-4 -->
+          <div class="card disabled">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-lg-1">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" disabled>
+                </div>
+                <div class="col-lg-11">
+                  <div class="row">
+                    <div class="col-lg-9">
+                      <h4 class="card-title">  Mahogany Special Edition</h4>
+                      <h6>Pledge $200</h6>
+                    </div>
+                    <div class="col-lg-3 card-right">
+                      <div class="left-1">
+                            <h5>0</h5><span style="color:hsl(0, 0%, 48%);"> left.</span>
+                      </div>
+
+                    </div>
+                  </div>
+                  <p class="card-text">You get two Special Edition Mahogany stands, a Backer T-Shirt, and a personal thank you. You’ll be added
+                  to our Backer member list. Shipping is included.</p>
+                  <div class="left-2">
+                        <h5>0</h5><span style="color:hsl(0, 0%, 48%);"><sup>  left</sup> </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Modal 2 -->
+
+  <div class="modal fade" id="modal2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body" style="text-align:center">
+          <div class="check-img">
+            <img src="images/icon-check.svg" alt="">
+          </div>
+          <h3>Thanks for your support!</h3>
+          <p>  Your pledge brings us one step closer to sharing Mastercraft Bamboo Monitor Riser worldwide. You will get
+            an email once our campaign is completed.</p>
+            <button class="btn btn-primary back-this " data-bs-dismiss="modal" aria-label="Close">Got it!</button>
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
