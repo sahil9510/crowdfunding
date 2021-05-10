@@ -13,6 +13,9 @@ p{
   font-size: 0.8rem;
 }
 
+.nav-item{
+  text-align: left;
+}
 
 #main-body{
   padding: 30% 5% 0;
@@ -68,7 +71,7 @@ p{
 
 #donation h1{
   font-size: 2.5rem;
-
+  margin-bottom: 10%;
 }
 
 
