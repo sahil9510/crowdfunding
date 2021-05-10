@@ -32,7 +32,7 @@ $("#submitBtn2").click(function(){
 
 
 $("#submitBtn3").click(function(){
-  var newDonation=($("#pledge-box2").val());
+  var newDonation=($("#pledge-box3").val());
   var previousDonation=$("#donatedMoney").text();
   previousDonation = previousDonation.replace(',', '');
   previousDonation = previousDonation.replace('$', '');
