@@ -207,7 +207,7 @@ textarea:focus, input:focus{
   margin-right: 20px;
 }
 
-.col-lg-11 input{
+.mobile-only{
   display: none;
 }
 
